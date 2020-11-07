@@ -1,0 +1,21 @@
+body{
+    /* on set la margin à 0 par défault */ 
+    margin: 0;
+    background-color: #141414;
+}
+
+#imgLune{
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+#imgOeilGauche{
+    width: 15%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+#imgOeilDroit{
+    width: 15%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
