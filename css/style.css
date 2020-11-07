@@ -1,4 +1,7 @@
 body{
+    /* on donne la largeur et la hauteur de base */
+    width: 100%; 
+    height: 100%; 
     /* on set la margin à 0 par défault */ 
     margin: 0;
     background-color: #141414;
