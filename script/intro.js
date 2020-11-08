@@ -1,0 +1,1 @@
+document.getElementById('imgLune').style.animation = "luneGrow 1s";
