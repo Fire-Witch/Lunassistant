@@ -78,6 +78,14 @@ body{
     color: #141414;
 }
 
+#footer{
+    position: absolute;
+    bottom: 0px;
+    color: #dbdbdb;
+    font-family: campanile;
+    opacity: 0%;
+}
+
 /* animations */
 /* animation qui rétrecit la lune */
 @keyframes luneStart {
@@ -97,4 +105,8 @@ body{
 @keyframes buttonAppear {
     0%   {opacity: 0%; margin-top: 5%;}
     100% {opacity: 100%; margin-top: 3%;}
+}
+@keyframes footerAppear {
+    0%   {opacity: 0%;}
+    100% {opacity: 100%;}
 }

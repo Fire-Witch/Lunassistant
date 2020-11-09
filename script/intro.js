@@ -15,6 +15,9 @@ setTimeout(function () { document.getElementById('titreLuna').style.animation = 
 setTimeout(function () { document.getElementById('titreLuna').style.opacity = "100%"; }, 2500);
 setTimeout(function () { document.getElementsByTagName("body")[0].style.overflowY = ""; }, 2500);
 
+
+setTimeout(function () { document.getElementById('footer').style.animation = "footerAppear 0.5s"; }, 2100);
+setTimeout(function () { document.getElementById('footer').style.opacity = "100%"; }, 2600);
 setTimeout(function () {
     var all = document.getElementsByClassName('buttonAction');
     for (var i = 0; i < all.length; i++) {
