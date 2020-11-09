@@ -27,7 +27,7 @@ setTimeout(function () {
 setTimeout(function () {
     var all = document.getElementsByClassName('buttonAction');
     for (var i = 0; i < all.length; i++) {
-        all[i].style.marginTop = "3%";
+        all[i].style.marginTop = "4%";
     }
 }, 2100);
 setTimeout(function () {
