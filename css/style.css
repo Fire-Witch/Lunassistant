@@ -55,6 +55,29 @@ body{
     font-family: campanile;
 }
 
+/* button assist */
+#containButton{
+    width: 90%;
+    height: 70%;
+    float: left;
+    margin-left: 5%;
+}
+.buttonAction{
+    margin: 5%;
+    font-size: 1.5vw;
+    width: 14.5%;
+    color: #dbdbdb;
+    background-color: #141414;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin-top: 5%;
+    opacity: 0%;
+}
+.buttonAction:hover{
+    background-color: #dbdbdb;
+    color: #141414;
+}
+
 /* animations */
 /* animation qui rétrecit la lune */
 @keyframes luneStart {
@@ -70,4 +93,8 @@ body{
 @keyframes titreAppearStart {
     0%   {opacity: 0%;}
     100% {opacity: 100%;}
+}
+@keyframes buttonAppear {
+    0%   {opacity: 0%; margin-top: 5%;}
+    100% {opacity: 100%; margin-top: 3%;}
 }
